@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB vs RR - Vote</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+        body {
+            background: url('https://source.unsplash.com/1600x900/?futuristic,neon') no-repeat center center fixed;
+            background-size: cover;
+            color: #00e6e6;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6;
+        }
+        .match-time {
+            font-size: 1.8em;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 230, 230, 0.5);
+            width: 60%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        .poll-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 230, 230, 0.5);
+            width: 60%;
+            max-width: 400px;
+        }
+        .poll-option {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        .vote-button {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #00e6e6;
+            color: #0d0d0d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+        }
+        .vote-button:hover {
+            background-color: #00b3b3;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>RCB vs RR - Vote Now!</h1>
+    
+    <div class="match-time">Tomorrow 9:45 AM</div>
+
+    <div class="poll-container">
+        <p>Who will win?</p>
+        <button class="vote-button" onclick="vote('RCB')">RCB</button>
+        <button class="vote-button" onclick="vote('RR')">RR</button>
+    </div>
+
+    <script>
+        function vote(team) {
+            alert("You voted for " + team + "! Thanks for participating.");
+        }
+    </script>
+</body>
+</html>

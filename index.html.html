@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playoffs Stats</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+        body {
+            background-color: #0d0d0d;
+            color: #00e6e6;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #00e6e6, 0 0 20px #00e6e6, 0 0 30px #00e6e6;
+        }
+        .stats-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 230, 230, 0.5);
+            width: 80%;
+            max-width: 600px;
+        }
+        .match {
+            margin: 15px 0;
+            font-size: 1.5em;
+        }
+        .button {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #00e6e6;
+            color: #0d0d0d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #00b3b3;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Playoffs Matches Stats Here</h1>
+    <div class="stats-container">
+        <div class="match">GT vs RCB - <a href="gtrcb.html" class="button">Click here</a></div>
+        <div class="match">MI vs RR - <a href="mirr.html" class="button">Click here</a></div>
+        <div class="match">RCB vs RR - <a href="rcbrr.html" class="button">Click here</a></div>
+        <div class="match">GT vs TBD - <a href="gttbd.html" class="button">Click here</a></div>    </div>
+</body>
+</html>
