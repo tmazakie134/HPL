@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR Batting Scorecard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+        body {
+            background: radial-gradient(circle, rgba(108,0,179,0.8) 0%, rgba(38,0,77,0.9) 100%);
+            color: #ffffff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #bd00ff;
+        }
+        .scorecard {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.7);
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #00e6e6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>RR Batting</h1>
+
+    <div class="scorecard">
+        <table>
+            <tr>
+                <th>Name of Player</th>
+                <th>Runs</th>
+                <th>Balls</th>
+                <th>4's</th>
+                <th>6's</th>
+                <th>S/R</th>
+                <th>Dismissal</th>
+            </tr>
+            <tr>
+                <td>Shaurya</td>
+                <td>25</td>
+                <td>14</td>
+                <td>2</td>
+                <td>2</td>
+                <td>178.57</td>
+                <td>b Naitik</td>
+            </tr>
+            <tr>
+                <td>Arsh</td>
+                <td>2</td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>28.57</td>
+                <td>b Akshit Jha c Adi</td>
+            </tr>
+            <tr>
+                <td>Aarav</td>
+                <td>20</td>
+                <td>5</td>
+                <td>2</td>
+                <td>2</td>
+                <td>400.00</td>
+                <td>b Adi</td>
+            </tr>
+            <tr>
+                <td>Tejas</td>
+                <td>12</td>
+                <td>11</td>
+                <td>1</td>
+                <td>0</td>
+                <td>109.1</td>
+                <td>b Adi</td>
+            </tr>
+            <tr>
+                <td>Kushagra</td>
+                <td>37</td>
+                <td>16</td>
+                <td>4</td>
+                <td>2</td>
+                <td>231.25</td>
+                <td>Not Out</td>
+            </tr>
+            <tr>
+                <td>Akkie</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>00.00</td>
+                <td>Not Out</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

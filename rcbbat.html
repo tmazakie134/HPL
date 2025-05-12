@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB Batting Scorecard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+        body {
+            background: radial-gradient(circle, rgba(108,0,179,0.8) 0%, rgba(38,0,77,0.9) 100%);
+            color: #ffffff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #bd00ff;
+        }
+        .scorecard {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.7);
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #00e6e6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>RCB Batting</h1>
+
+    <div class="scorecard">
+        <table>
+            <tr>
+                <th>Name of Player</th>
+                <th>Runs</th>
+                <th>Balls</th>
+                <th>4's</th>
+                <th>6's</th>
+                <th>S/R</th>
+                <th>Dismissal</th>
+            </tr>
+            <tr>
+                <td>Adi</td>
+                <td>6</td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td>75.00</td>
+                <td>b Shaurya c Kushagra</td>
+            </tr>
+            <tr>
+                <td>Naitik</td>
+                <td>33</td>
+                <td>24</td>
+                <td>2</td>
+                <td>2</td>
+                <td>137.50</td>
+                <td>b Akkie c Tejas</td>
+            </tr>
+            <tr>
+                <td>Vignesh</td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1</td>
+                <td>233.33</td>
+                <td>b Aarav c Akkie</td>
+            </tr>
+            <tr>
+                <td>Zamam</td>
+                <td>6</td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+                <td>150.00</td>
+                <td>b Tejas</td>
+            </tr>
+            <tr>
+                <td>Naitik</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>00.00</td>
+                <td>b Akkie c Tejas</td>
+            </tr>
+            <tr>
+                <td>Akshit Jha</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>00.00</td>
+                <td>lbw b Akkie</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
